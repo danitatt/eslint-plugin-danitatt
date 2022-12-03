@@ -1,4 +1,4 @@
-const jsxUnwrap = {
+module.exports = {
   meta: {
     fixable: true
   },
@@ -17,5 +17,3 @@ const jsxUnwrap = {
     }
   }
 }
-
-module.exports = jsxUnwrap

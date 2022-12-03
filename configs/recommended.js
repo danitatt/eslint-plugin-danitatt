@@ -1,12 +1,7 @@
-const recommended = {
+module.exports = {
   plugins: ["danitatt"],
   rules: {
-    "indent": [1, 2],
-    "semi": [1, "never"],
-    "danitatt/jsx-unwrap": [1],
-    "danitatt/return-comment": [1],
-    "danitatt/test": [1]
+    "semi": ["warn", "never"],
+    "danitatt/jsx-unwrap": ["warn"]
   }
 }
-
-module.exports = recommended
