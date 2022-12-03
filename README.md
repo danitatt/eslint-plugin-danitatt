@@ -1,5 +1,8 @@
 Add to .eslintrc.json:
 
 `
-    "extends": ["plugin:danitatt/recommended"]
+    "extends": [
+        "plugin:danitatt/objects",
+        "plugin:danitatt/arrays"
+    ]
 `

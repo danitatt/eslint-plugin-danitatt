@@ -1,8 +1,8 @@
-// Require configs
+// Require local configs
 const objects = require('./configs_new/objects.js')
 const arrays = require('./configs_new/arrays.js')
 
-// Require rules
+// Require local rules
 const jsxUnwrap = require('./rules/jsx-unwrap.js')
 const returnComment = require('./rules/return-comment.js')
 
