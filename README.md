@@ -1,4 +1,8 @@
-Add to .eslintrc.json or another config file:
+### Install:
+
+`npm i --save-dev danitatt/eslint-plugin-danitatt`
+
+Add to `.eslintrc.json` or <ins>another config file</ins>:
 
 ```json
     "plugins": ["danitatt"],
