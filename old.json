@@ -55,7 +55,6 @@
     // Set jsx
     "react/jsx-props-no-multi-spaces": [1],
     "react/jsx-max-props-per-line": [1],
-    "jsx-quotes": [1, "prefer-single"],
     "react/jsx-tag-spacing": [1, { "beforeSelfClosing": "never" }],
     "react/self-closing-comp": [1],
     "react/jsx-boolean-value": [1, "always"],
