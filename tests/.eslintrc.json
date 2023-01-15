@@ -1,0 +1,49 @@
+{
+  "env": {
+    "es2017": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": ["danitatt"],
+  "extends": [
+    "plugin:danitatt/generals",
+    "plugin:danitatt/objects",
+    "plugin:danitatt/arrays",
+    "plugin:danitatt/jsx"
+  ],
+  "rules": {
+
+    // ____________________________________________________________________________________________________________
+    
+    // // Общее
+    // "indent": ["warn", 2] // Общий отступ
+    // "comma-spacing": ["warn"], // Отступ от запятых
+    // "comma-dangle": ["warn", "never"], // Последние запятые в объектах и массивах
+    // "semi": ["warn", "never"], // Точка с запятой
+    // "quotes": ["warn", "single"], // Кавычки
+    // "key-spacing": ["warn"], // Отступы от двоеточий
+    // "no-multi-spaces": ["warn"], // Два+ пробела
+    // "no-trailing-spaces": ["warn"], // Ложные отступы
+    // "space-infix-ops": [1], // Отступы между знаками
+
+    // // Объекты
+    // "object-curly-spacing": ["warn", "always"], // Отступы в скобках объекта
+    // "object-curly-newline": ["warn", { "ObjectExpression": { "minProperties": 2 } }], // Перенос первого ключа в объекте 
+    // "object-property-newline": ["warn"], // Перенос ключей в объекте
+
+    // // Массивы
+    // "array-bracket-spacing": ["warn"], // Отступы в скобках массива
+    // "array-bracket-newline": [1, "never"], // Перенос первого элемента в массиве 
+    // "array-element-newline": [1, "never"] // Перенос элементов в массиве
+    
+    // JSX
+    "jsx-quotes": ["warn", "prefer-single"]
+
+    // ____________________________________________________________________________________________________________
+    
+  }
+}

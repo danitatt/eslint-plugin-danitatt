@@ -1,0 +1,9 @@
+{
+  "name": "eslint",
+  "version": "1.0.0",
+  "author": "danitatt",
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-plugin-danitatt": "github:danitatt/eslint-plugin-danitatt"
+  }
+}
